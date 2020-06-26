@@ -1,7 +1,7 @@
 注意事项：
 1、需要保证 MyPerf4J 对 `MyPerf4JPropFile` 所在的目录具有可写的权限
 2、使用 Windows 的同学，请注意修改路径格式，包括 `MyPerf4JPropFile` 中的文件路径
-3、需要修改 `MyPerf4JPropFile` 文件中的 `AppName`、`IncludePackages` 和 `xxxMetricsFile` 这几个配置的值
+3、需要修改 `MyPerf4JPropFile` 文件中的 `app_name`、`metrics.log.xxx` 和 `filter.packages.include` 的配置值
 4、请把 `-javaagent:/path/to/MyPerf4J-ASM.jar -DMyPerf4JPropFile=/path/to/MyPerf4J.properties` 放到 -jar <yourApp.jar> 之前，形如：`java -javaagent:/path/to/MyPerf4J-ASM.jar -DMyPerf4JPropFile=/path/to/MyPerf4J.properties -jar yourApp.jar`
 
 更多信息，请参考：https://github.com/LinShunKang/MyPerf4J/wiki/Chinese-Doc

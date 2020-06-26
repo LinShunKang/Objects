@@ -1,7 +1,7 @@
 Notes：
 1、Check that the user account that runs the JVM has write access to the `MyPerf4JPropFile` folder
 2、If you use windows, please pay attention to modify the path format, including the file path in the `MyPerf4JPropFile`
-3、Need to modify the values of the `AppName`, `IncludePackages`, and `xxxMetricsFile` configurations in the `MyPerf4JPropFile`
+3、Need to modify the values of the `app_name`, `metrics.log.xxx` and `filter.packages.include` configurations in the `MyPerf4JPropFile`
 4、Add `-javaagent:/path/to/MyPerf4J-ASM.jar -DMyPerf4JPropFile=/path/to/MyPerf4J.properties` to your application's JVM args, like: `java -javaagent:/path/to/MyPerf4J-ASM.jar -DMyPerf4JPropFile=/path/to/MyPerf4J.properties -jar yourApp.jar`
 
 For more information about the project, please read: https://github.com/LinShunKang/MyPerf4J/wiki/English-Doc
